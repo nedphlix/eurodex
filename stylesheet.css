@@ -1,0 +1,425 @@
+@font-face {
+	font-family: pokefont;
+	src: url(Pokemon_GB.ttf);
+}
+
+
+#wrapper{
+	margin: auto;
+	margin-top: 50px;
+	height: 500px;
+	width: 650px;
+	background-color: transparent;
+}
+
+#left{
+	width: 350px;
+	height: 500px;
+	display: inline-block;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #dc0a2d;
+	box-shadow: 4px 18px 22px -2px rgba(0,0,0,0.75);
+}
+
+#right{
+	width: 300px;
+	height: 500px;
+	display: inline-block;
+	float: right;
+}
+
+#left_top_left{
+	float: left;
+	width: 174px;
+	height: 68px;
+	border-bottom: 1px solid #232323;
+	border-left: 1px solid #232323;
+	border-top: 1px solid #232323;
+	border-radius: 20px 0px 20px 0px;
+	background-color: #dc0a2d;
+}
+
+	#left_top_left_large_button_01{
+		float: left;
+		width: 48px;
+		height: 48px;
+		margin: 10px 0px 10px 10px;
+		background: -webkit-radial-gradient(30% 30%, circle, #28aafd, #196a9e, #232323);
+		border: 1px solid #232323;
+		border-radius: 100%;
+	}	
+
+	.left_top_left_buttons{
+		float: left;
+		width: 13px;
+		height: 13px;
+		margin-top: 10px;
+		margin-left: 5px;
+		border: 1px solid #232323;
+		border-radius: 100%;
+	}
+
+#left_top_right{
+	float: left;
+	width: 174px;
+	height: 48px;
+	z-index: -1;
+	border-bottom: 1px solid #232323;
+	border-top: 1px solid #232323;
+	border-right: 1px solid #232323;
+	border-radius: 0px 10px 0px 0px;
+	background-color: #dc0a2d;
+}
+
+#left_center_bar{
+	float: right;
+	width: 23px;
+	border-left: 1px solid #232323;
+	border-right: 1px solid #232323;
+	height: 450px;
+	background-color: #dc0a2d;
+}
+
+	.ellipsis{
+		height: 16px;
+		border-top: 2px solid #232323;
+		width: 23px;
+		border-radius: 50%;
+	}
+
+	#el01{
+		position: relative;
+		background-color: #dc0a2d;
+		z-index: +1;
+		top: -8px;
+	}
+
+	#el02{
+		margin-top: 100px;
+	}
+
+	#el04{
+		margin-top: 160px;
+	}
+
+	#center_bottom{
+		margin-top: 90px;
+	}
+
+	#center_bottom{
+		border-bottom: 2px solid #232323;
+		background-color: #dc0a2d;
+	}
+
+#left_screen_wrapper{
+	float: left;
+	width: 324px;
+	height: 300px;
+	border-left: 1px solid #232323;
+	background-color: #dc0a2d;
+}
+
+	#left_screen_container{
+		clear: both;
+		height: 258px;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 30px;
+		border: 1px solid #232323;
+		background-color: #dedede;
+	}
+
+		#left_center_small_button_01{
+			float: left;
+			position: relative;
+			height: 8px;
+			width: 8px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			left: 49%;
+			border: 1px solid #232323;
+			border-radius: 100%;
+			background-color: red;
+		}
+
+		#left_center_small_button_01:hover{
+			border: 1px solid red;
+			cursor: pointer;
+		}
+
+		#left_screen{
+			clear: both;
+			height: 198px;
+			margin-left: 19px;
+			margin-right: 19px;
+			border: 1px solid #232323;
+			background-color: white;
+		}
+
+		#tv_off_img{
+			position: relative;
+			width: 256px;
+			height: 198px;
+			z-index: 1;
+		}
+
+		#youtube_player{
+			position: absolute;
+			float: left;
+			top: 172px;
+			width: 256px;
+			height: 198px;
+			z-index: 0;
+		}
+
+		#line_container{
+			float: right;
+			height: 20px;
+			width: 75px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-right: 112px;
+		}
+
+			.lines{
+				width: 75px;
+				height: 4px;
+				border-top: 2px solid #232323;
+				float: left;
+			}
+
+#left_button_wrapper{
+	float: left;
+	width: 324px;
+	height: 129px;
+	border-left: 1px solid #232323;
+	border-bottom: 1px solid #232323;
+	border-radius: 0px 0px 0px 20px;
+	background-color: #dc0a2d;
+}
+
+	#left_button_placeholder_01{
+		float: left;
+		width: 120px;
+		height: 70px;
+		margin-top: 30px;
+		margin-left: 4%;
+		background-color: #dc0a2d;
+	}
+
+		#left_bottom_pad{
+			clear: both;
+			width: 118px;
+			height: 58px;
+			margin-left: 20px;
+			border: 1px solid #232323;
+			background-color: #51ae5f;
+		}
+
+		#created_by{
+			clear: both;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 8px;
+			line-height: 16px;
+			width: 118px;
+			height: 58px;
+			font-family: pokefont;
+		}
+
+		#fbshare{
+		width: 50px;
+		height: 29px;
+
+		float: right;
+		margin-right: 20px;
+		position: relative;
+		top: 15px;
+		line-height: 29px;
+		border: 1px solid #232323;
+		
+		font-family: pokefont;
+		font-size: 8px;
+		text-decoration: none;
+		text-align: center;
+		color: #232323;
+		background-color: #dedede;		
+		}
+
+	#fbshare:hover{
+		background-color: #28aafd;
+		color: white;
+	}
+
+	#left_button_placeholder_02{
+		float: right;
+		width: 120px;
+		height: 70px;
+		margin-top: 30px;
+		margin-right: 4%;
+		background-color: #dc0a2d;
+	}
+
+#right_placeholder_large{
+	clear: both;
+	width: 300px;
+	height: 50px;
+}
+
+#right_screen_wrapper{
+	width: 299px;
+	height: 149px;
+	border-top: 1px solid #232323;
+	border-right: 1px solid #232323;
+	padding-top: 40px;
+	background-color: #dc0a2d;
+	border-radius: 0px 10px 0px 0px;
+}
+
+	#right_screen{
+		width: 258px;
+		height: 98px;
+		position: relative;
+		top: +35px;
+		background-color: #51ae5f;
+		border: 1px solid #232323;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+		#right_screen_text_wrapper{
+			clear: both;
+			display: table;
+			text-align: center;
+			width: 200px;
+			height: 80px;
+			margin-left: 29px;
+			margin-right: 29px;
+			margin-top: 10px;
+		}
+
+		#right_screen_text{
+			display: table-cell;
+			vertical-align: middle;
+			font-size: 40px;
+			line-height: 30px;
+			font-family: pokefont;
+		}
+
+#right_blue_buttons_container{
+	clear: both;
+	width: 299px;
+	height: 100px;
+	border-right: 1px solid #232323;
+	background-color: #dc0a2d;
+}
+
+	#right_blue_buttons{
+		clear: both;
+		margin: auto;
+		width: 260px;
+		height: 100px;
+		background-color: #dc0a2d;
+	}
+
+	.right_blue_buttons_class{
+		float: left;
+		width: 50px;
+		height: 48px;
+		background-color: #28aafd;
+		border: 1px solid #232323;
+	}
+
+		.right_blue_button_text{
+			height: 48px;
+			width: 50px;
+			text-align: center;
+			font-family: pokefont;
+			font-size: 8px;
+			line-height: 48px;
+			opacity: 0;
+		}
+
+		.right_blue_button_text:hover{
+			background-color: white;
+			cursor: pointer;
+			opacity: 1;
+		}
+
+#right_wide_buttons{
+	clear: both;
+	width: 299px;
+	height: 40px;
+	border-right: 1px solid #232323;
+	background-color: #dc0a2d;
+}
+
+	#right_wide_button_01{
+		float: right;
+		margin-top: 8px;
+		margin-right: 20px;
+		width: 50px;
+		height: 5px;
+		border: 1px solid #232323;
+		border-radius: 5px 5px 5px 5px;
+		background-color: #dedede;
+	}
+
+	#right_wide_button_01:hover{
+		background-color: yellow;
+		cursor: pointer;
+	}
+
+#right_button_wrapper{
+	clear: both;
+	width: 299px;
+	height: 119px;
+	border-right: 1px solid #232323;
+	border-bottom: 1px solid #232323;
+	border-radius: 0px 0px 20px 0px;
+	background-color: #dc0a2d;
+	box-shadow: -4px 18px 22px -2px rgba(0,0,0,0.75);
+}
+
+	#right_bottom_round_button_01{
+		float: right;
+		margin-top: 12px;
+		margin-right: 20px;
+		width: 24px;
+		height: 24px;
+		border: 1px solid #232323;
+		border-radius: 100%;
+		background-color: #9f8b0e;
+	}
+
+	#right_bottom_round_button_02{
+		float: right;
+		margin: 2px;
+		width: 10px;
+		height: 10px;
+		margin-right: 12px;
+		margin-top: 7px;
+		border-radius: 100%;
+		background-color: #fddd13;
+	}
+
+
+ul.share-buttons{
+	list-style: none;
+  	padding: 0;
+}
+
+ul.share-buttons li{
+  	display: inline;
+  	margin: 0px 5px 0px 5px;
+  	font-size: 13px;
+}
+
+.social-button {
+	color: #dedede;
+}
+
+#social-block {
+	text-align: center;
+}
